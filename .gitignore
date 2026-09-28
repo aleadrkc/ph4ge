@@ -1,0 +1,14 @@
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test temporary output (the installer test cleans its own directory,
+# but a stray path should never be tracked)
+ph4ge-test-*/
